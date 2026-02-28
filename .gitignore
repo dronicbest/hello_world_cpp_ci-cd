@@ -4,6 +4,7 @@ CMakeFiles
 CMakeScripts
 Testing
 Makefile
+out
 cmake_install.cmake
 install_manifest.txt
 compile_commands.json
@@ -11,6 +12,8 @@ CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
 build
+.vs
+*.bak
 
 # CLion
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can

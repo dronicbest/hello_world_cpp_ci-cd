@@ -15,7 +15,7 @@ add_library(${PROJECT_NAME} src/lib.cpp)
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_20)
 
-target_include_directories(helloworld
+target_include_directories(${PROJECT_NAME}
     PRIVATE "${CMAKE_BINARY_DIR}"
 )
 
