@@ -10,8 +10,8 @@ option(WITH_BOOST_TEST "Whether to build Boost test" ON)
 
 configure_file(version.h.in version.h)
 
-add_executable(${PROJECT_NAME}_cli src\main.cpp)
-add_library(${PROJECT_NAME} src\lib.cpp)
+add_executable(${PROJECT_NAME}_cli src/main.cpp)
+add_library(${PROJECT_NAME} src/lib.cpp)
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_20)
 
